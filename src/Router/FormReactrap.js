@@ -95,31 +95,7 @@ class FormReactrap extends Component {
                   </FormFeedback>
                   <FormText>Example help text that remains unchanged.</FormText>
                 </FormGroup>
-                <FormGroup>
-                  <Label>Select</Label>
-
-                  <select
-                    class="selectpicker"
-                    id="your_id"
-                    data-live-search="true"
-                  >
-                    <option data-tokens="ketchup mustard">
-                      Hot Dog, Fries and a Soda
-                    </option>
-                    <option data-tokens="mustard">
-                      Burger, Shake and a Smile
-                    </option>
-                    <option data-tokens="frosting">
-                      Sugar, Spice and all things nice
-                    </option>
-                  </select>
-
-                  <FormFeedback valid>
-                    Sweet! that name is available
-                  </FormFeedback>
-                  <FormText>Example help text that remains unchanged.</FormText>
-                </FormGroup>
-
+               
                 <Button type="submit">Submit</Button>
                 <Button type="reset">Reset</Button>
               </Form>
