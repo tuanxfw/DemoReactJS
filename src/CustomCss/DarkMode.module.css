@@ -1,0 +1,69 @@
+/*#region Menu left*/
+
+.sidebarMenu {
+  padding: 10px;
+  border-radius: 10px;
+  width: 250px;
+}
+.sidebarMenu i {
+  font-size: 20px;
+  margin-right: 10px;
+}
+.sidebarMenu a {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  /* border-radius: 10px; */
+  clip-path: polygon(75% 0%, 89% 50%, 75% 100%, 0% 100%, 4% 50%, 0% 0%);
+  color: white;
+  transition: all 0.15s ease-in;
+}
+.sidebarMenu a:hover {
+  color: white;
+  background: linear-gradient(90deg, rgba(119,44,169,1) 0%, rgba(132,0,98,1) 100%);
+}
+.sidebarMenu span {
+  font-weight: 500;
+}
+
+/*#endregion*/
+
+/*#region Scroll Panel*/
+.ScrollPanel {
+  overflow-y: scroll;
+  overflow-x: scroll;
+  height: 100vh;
+}
+
+::-webkit-scrollbar {
+  -webkit-appearance: none;
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background-color: rgba(109, 109, 109, 0.479);
+}
+/*#endregion*/
+
+/*#region NavBar color*/
+.navbar{
+  background: linear-gradient(90deg, rgba(0,0,0,1) 2%, rgba(131,58,180,1) 100%);
+}
+
+.nav h5{
+  color: 'white';
+}
+
+/*#endregion*/
+
+.background{
+  background: #161a1b;
+}
+
+.input{
+  background: black ;
+  color: white ;
+  box-shadow: none ;
+  border: none ;
+}

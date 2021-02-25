@@ -1,0 +1,70 @@
+/*#region Menu left*/
+
+.sidebarMenu {
+  padding: 10px;
+  border-radius: 10px;
+  width: 250px;
+}
+.sidebarMenu i {
+  font-size: 20px;
+  margin-right: 10px;
+}
+.sidebarMenu a {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  /* border-radius: 10px; */
+  clip-path: polygon(75% 0%, 89% 50%, 75% 100%, 0% 100%, 4% 50%, 0% 0%);
+  color: #333132;
+  transition: all 0.15s ease-in;
+}
+.sidebarMenu a:hover {
+  color: white;
+  background-image: linear-gradient( 111.6deg,  rgba(174,68,223,1) 27.3%, rgba(246,135,135,1) 112.7% );
+}
+.sidebarMenu span {
+  font-weight: 500;
+}
+
+/*#endregion*/
+
+/*#region Scroll Panel*/
+.ScrollPanel {
+  overflow-y: scroll;
+  overflow-x: scroll;
+  height: 100vh;
+}
+
+::-webkit-scrollbar {
+  -webkit-appearance: none;
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background-color: rgba(109, 109, 109, 0.479);
+}
+/*#endregion*/
+
+/*#region NavBar color*/
+.navbar{
+  background-image: linear-gradient( 111.6deg,  rgba(174,68,223,1) 27.3%, rgba(246,135,135,1) 112.7% );
+}
+
+.nav h5{
+  color: 'white';
+}
+
+/*#endregion*/
+
+.background{
+  background: white !important;
+  
+}
+
+.input{
+  background: white;
+  color: #727478 ;
+  box-shadow: none;
+  border: none;
+}
